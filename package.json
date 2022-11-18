@@ -1,0 +1,30 @@
+{
+  "name": "summerpalace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlevchenko087/Summer-palace.git"
+  },
+  "author": "Vitaliy Levchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlevchenko087/Summer-palace/issues"
+  },
+  "homepage": "https://github.com/vlevchenko087/Summer-palace#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "browser-sync": "^2.27.10",
+    "concat": "^1.0.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp.spritesmith": "^6.13.0",
+    "rimraf": "^3.0.2",
+    "sass": "^1.55.0"
+  }
+}
