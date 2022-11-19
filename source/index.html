@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+<!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
 
     <title>Document</title>
 </head>
@@ -26,42 +28,121 @@
         </header>
 
     </div>
-    <section class="events container flex owl-carousel">
-        <div class="events-card">
-            <img src="./images/events/01.jpg" alt="corporate">
-            <div class="events-card-content">
-                <div class="events-card-inner">
+    <section class=" container ">
+        <div class="my-slider events flex">
 
-                    <h3 class="content-header">корпоративы</h3>
-                    <p class="content-text">Отметьте лучший праздник
-                        в лучшем дворце Петербурга!</p>
+            <div class="events-card">
+                <img src="./images/events/01.jpg" alt="corporate">
+                <div class="events-card-content">
+                    <div class="events-card-inner">
+    
+                        <h3 class="content-header">корпоративы</h3>
+                        <p class="content-text">Отметьте лучший праздник
+                            в лучшем дворце Петербурга!</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="events-card">
-            <img src="./images/events/02.jpg" alt="corporate">
-            <div class="events-card-content">
-                <div class="events-card-inner">
-
-                    <h3 class="content-header">свадьбы</h3>
-                    <p class="content-text">Отметьте лучший праздник
-                        в лучшем дворце Петербурга!</p>
+            <div class="events-card">
+                <img src="./images/events/02.jpg" alt="corporate">
+                <div class="events-card-content">
+                    <div class="events-card-inner">
+    
+                        <h3 class="content-header">свадьбы</h3>
+                        <p class="content-text">Отметьте лучший праздник
+                            в лучшем дворце Петербурга!</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="events-card">
-            <img src="./images/events/03.jpg" alt="corporate">
-            <div class="events-card-content">
-                <div class="events-card-inner">
-
-                    <h3 class="content-header">званые вечера</h3>
-                    <p class="content-text">Отметьте лучший праздник
-                        в лучшем дворце Петербурга!</p>
+            <div class="events-card">
+                <img src="./images/events/03.jpg" alt="corporate">
+                <div class="events-card-content">
+                    <div class="events-card-inner">
+    
+                        <h3 class="content-header">званые вечера</h3>
+                        <p class="content-text">Отметьте лучший праздник
+                            в лучшем дворце Петербурга!</p>
+                    </div>
                 </div>
+            </div>
+
+
+            <div class="events-card">
+                <img src="./images/events/01.jpg" alt="corporate">
+                <div class="events-card-content">
+                    <div class="events-card-inner">
+    
+                        <h3 class="content-header">корпоративы</h3>
+                        <p class="content-text">Отметьте лучший праздник
+                            в лучшем дворце Петербурга!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="events-card">
+                <img src="./images/events/02.jpg" alt="corporate">
+                <div class="events-card-content">
+                    <div class="events-card-inner">
+    
+                        <h3 class="content-header">свадьбы</h3>
+                        <p class="content-text">Отметьте лучший праздник
+                            в лучшем дворце Петербурга!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="events-card">
+                <img src="./images/events/03.jpg" alt="corporate">
+                <div class="events-card-content">
+                    <div class="events-card-inner">
+    
+                        <h3 class="content-header">званые вечера</h3>
+                        <p class="content-text">Отметьте лучший праздник
+                            в лучшем дворце Петербурга!</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="slider-controls">
+            <div class="slider-buttons">
+                <button class="slider-prev">
+                    &#8249;
+                </button>
+                <button class="slider-next">
+                    &#8250;
+                </button>
+
+            </div>
+            <div class="slider-dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
             </div>
         </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="./js/owl.carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
+    <script>
+        let slider = tns({
+            container: '.my-slider',
+    items: 3,
+    slideBy: 1,
+    autoplay: false,
+    "mouseDrag": true,
+  "swipeAngle": false,
+  "speed": 400,
+  autoplayPosition: 'bottom',
+  controlsPosition: 'bottom',
+  controlsContainer: '.slider-buttons',
+  navPosition: 'bottom',
+//   prevButton: '.slider-prev',
+//   nextButton: '.slider-next'
+  navContainer: '.slider-dots',
+  navAsThumbnails:'true'
+  
+});
+    </script>
 </body>
 </html>

@@ -51,3 +51,42 @@
         max-width: 40%;
     }
 }
+
+.slider{
+    &-controls{
+        margin-top: 60px;
+        position: relative;
+    }
+    &-buttons{
+        
+        max-width: 182px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        button{
+            background-color: #fff;
+            font-size: 10px;
+        }
+        
+    }
+}
+
+.slider-dots{
+    max-width: 150px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);;
+    top: 0;
+}
+.dot{
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    background-color: #E5E5E5;
+}
+
+.tns-nav-active{
+    background-color: #000;
+}
