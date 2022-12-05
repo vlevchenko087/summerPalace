@@ -3,6 +3,7 @@
     &-event{
         margin: 120px auto 0 auto;
         max-width: 1110px;
+        justify-content: space-between;
     }
 
     &-left{
@@ -23,6 +24,53 @@
             
         }
     }
+
+    &-right{
+        width: 48%;
+        
+
+    }
+
+    &-input-style,
+    &-textarea{
+        width: 100%;
+        outline: none;
+        margin-bottom: 25px;
+        border-bottom: 1px solid #D0D0D0;
+         &::placeholder{
+        font-family: 'Montserrat';
+        font-weight: 300;
+        font-size: 1.4rem;
+        color: #616161;
+        
+    }
+    }
+    &-text{
+        padding-bottom: 17px;
+        font-family: 'Montserrat';
+        font-weight: 300;
+        font-size: 1.4rem;
+        color: #000;
+    }
+
+    &-textarea{
+        
+        border: 1px solid #D0D0D0;
+        resize: none;
+        padding: 15px 20px;
+    }
+
+    &-submit{
+        outline: none;
+        background: #D1A954;
+        padding: 12px 35px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+
+    }
+   
 }
 
 .addresses{
