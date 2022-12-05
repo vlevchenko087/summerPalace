@@ -1,0 +1,40 @@
+.instagram{
+    margin-top: 120px;
+    padding-top: 120px;
+    width: 100vw;
+    background-color: #F9F7F7;
+    
+    h2{
+        font-size: 3.6rem;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #222222;
+    }
+    &>img{
+        width: 46px;
+        margin: 8px auto 0 auto;
+        display: block;
+    }
+    p{
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 0.03em;
+        font-size: 0.9rem;
+        color: #000;
+        margin-top: 10px;
+    }
+
+    &-photo{
+        margin-top: 90px;
+
+        &-item{
+
+            width:calc(100/6*1%);
+            &>img{
+                width: 100%;
+            }
+        }
+        
+    }
+}
