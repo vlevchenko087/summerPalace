@@ -1,7 +1,7 @@
 .header{
     padding-top: 60px;
-    padding-left: 100px;
-    max-width: 1495px;
+    padding-left: 160px;
+    max-width: 1555px;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
@@ -14,6 +14,7 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        margin-left: 20px;
     }
     
     &-link{

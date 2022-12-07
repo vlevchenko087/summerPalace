@@ -2,6 +2,12 @@
     
     margin-top: 60px;
     justify-content: space-between;
+    
+    &-section{
+        margin-left: 50px;
+        max-width: 1825px;
+
+    }
 
     &-card{
         max-width: 32.222%;
@@ -55,12 +61,12 @@
 
 .slider{
     &-controls{
-        margin-top: 60px;
+        margin-top: 57px;
         position: relative;
     }
     &-buttons{
         
-        max-width: 182px;
+        max-width: 172px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;

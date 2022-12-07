@@ -1,32 +1,37 @@
 .order{
 
     &-event{
-        margin: 120px auto 0 auto;
+        margin: 117px auto 0 auto;
         max-width: 1110px;
         justify-content: space-between;
     }
 
     &-left{
         display: inline-block;
-        width: 48%;
+        width: 49%;
 
         h2{
+            font-family: 'Montserrat';
             font-size: 3.6rem;
             letter-spacing: 0.05em;
             text-transform: uppercase;
+            line-height: 1.45;
             color: #000000;
         }
         &>p{
+            font-family: 'Montserrat';
             margin-top: 40px;
             color: #616161;
             font-size: 1.4rem;
+            line-height: 135%;
             max-width: 520px;
             
         }
     }
 
     &-right{
-        width: 48%;
+        width: 48.5%;
+        margin-top: 10px;
         
 
     }
@@ -46,7 +51,7 @@
     }
     }
     &-text{
-        padding-bottom: 17px;
+        padding-bottom: 13px;
         font-family: 'Montserrat';
         font-weight: 300;
         font-size: 1.4rem;
@@ -54,17 +59,22 @@
     }
 
     &-textarea{
-        
+        margin-top: 10px;
+        margin-bottom: 18px;
         border: 1px solid #D0D0D0;
         resize: none;
-        padding: 15px 20px;
+        padding: 15px 19px;
     }
 
     &-submit{
+        font-family: 'Montserrat';
         outline: none;
         background: #D1A954;
-        padding: 12px 35px;
-        letter-spacing: 0.05em;
+        padding: 13px 35px;
+        letter-spacing: 0.05rem;
+        font-weight: 300;
+        font-size: 1.6rem;
+        line-height: 135%;
         text-transform: uppercase;
         color: #FFFFFF;
 
@@ -74,7 +84,7 @@
 }
 
 .addresses{
-    margin-top: 60px;
+    margin-top: 57px;
     justify-content: space-between;
     flex-wrap: wrap;
 
@@ -102,14 +112,14 @@
     }
 
     img{
-        margin-right: 25px;
+        margin-right: 23px;
         width: 30px;
     }
     p, a{
         max-width: 200px;
         color: #000000;
         font-size: 1.4rem;
-        padding-top: 5px;
+        // padding-top: 5px;
     }
     a{
         text-decoration: none;
